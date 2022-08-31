@@ -10,6 +10,6 @@ public class JenkinsTest {
         int a=10;
         int b=20;
         System.out.println("a="+a+" b="+b);
-        Assert.assertTrue(a!=b);
+        Assert.assertTrue("Check a==b",a!=b);
     }
 }
